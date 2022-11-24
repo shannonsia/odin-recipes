@@ -1,7 +1,7 @@
 
 *
 {
-    background-image: url("images/salmon-background.jpeg");
+    box-sizing: border-box;
 }
 
 h1
@@ -20,15 +20,42 @@ h1
 }
 
 
-body
-{
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: 'Tahoma';
-}
-
 .navigation
 {
+    background-color: grey;
     display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+
+
+body
+{
+    font-family: 'Tahoma';
+    background-image: url("images/salmon-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text-area 
+{
+    background-color: #f2e9e4;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.flex-item
+{
+ display:flex;   
+ flex-wrap:wrap;
+ justify-content: space-evenly;
+}
+
+.description
+{
+    text-align: center;
+}

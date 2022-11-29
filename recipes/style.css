@@ -5,6 +5,21 @@
     font-family: 'Playfair Display', serif;
 }
 
+.navigation
+{
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #6b705c;
+}
+
+
+
 h1
 {
     text-align: center;
@@ -22,21 +37,11 @@ h1
     margin-right: auto;
 }
 
-.navigation
-{
-    background-color: #C89F9C;
-    display: inline-block;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
 
 body
 {
     background-image: url("images/lemon-background.jpg");
-
-    color: #5C4742;
+    color: #3f4238;
 }
 
 
@@ -45,9 +50,26 @@ body
     background-color: white;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    border: #f2e9e4 solid 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: #f2e9e4 solid 3px;
 }
 
+.flex-container
+{
+display: flex;
+justify-content: space-between;å
+}
+
+.flex-item-ingredients
+{
+    margin-right: 35px;
+    mid-width: 100px;
+}
+
+textarea
+{
+border: #f2e9e4 dotted 2px;
+}
